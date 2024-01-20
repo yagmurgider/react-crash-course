@@ -22,7 +22,6 @@ function NewPost({ onAddPost } ) {
             author: enteredAuthor
         }
         onAddPost(postData);
-        onCancel();
     }
     return (
         <Modal>
